@@ -15,24 +15,17 @@ const store = createStore();
 
 /**
  * Provides an entry point into our application.  Both index.ios.js and index.android.js
- * call this component first.
+ * call this comp''onent first.
  *
  * We create our Redux store here, put it into a provider and then bring in our
  * RootContainer.
  *
  * We separate like this to play nice with React Native's hot reloading.
  */
-<<<<<<< HEAD
-class App extends Component
-{
-  render()
-{
-=======
 class App extends Component {
 
 
   render () {
->>>>>>> master
     return (
       <Provider store={store}>
         <RootContainer />
