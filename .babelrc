@@ -1,0 +1,22 @@
+{
+  "presets": ["react-native","react-native-stage-0"],
+  "env": {
+    "production": {
+      "plugins": ["ignite-ignore-reactotron"]
+    }
+  },
+  "plugins": [
+    ["module-resolver", {
+      "alias": 
+      {
+        "Benchr": "./App/Benchr",
+        "Debug": "./App/Debug",
+        "Components": "./App/Components",
+        "Config": "./App/Config",
+        "Redux" : "./App/Redux",
+        "Themes" : "./App/Themes",
+        "Containers" : "./App/Containers"
+      }
+    }]
+  ]
+}
