@@ -1,6 +1,5 @@
 {
     "env": {
-<<<<<<< HEAD
         "es6": true,
         "node": true
     },
@@ -47,62 +46,4 @@
           "babel-module": {}
         }
       }
-=======
-    "node": true,
-    "es6": true,
-    "mocha": true
-  },
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
-  "rules": {
-    "semi": 2,
-    "brace-style": [
-      "error",
-      "allman",
-      {
-        "allowSingleLine": true
-      }
-    ],
-    "no-var": "error",
-    "dot-notation": "error",
-    "global-require": "error",
-    "handle-callback-err": "error",
-    "no-else-return": "error",
-    "no-invalid-this": "error",
-    "no-magic-numbers": [
-      "error",
-      {
-        "ignore": [
-          0,
-          1,
-          2,
-          3,
-          -1
-        ]
-      }
-    ],
-    "no-new": "error",
-    "no-new-require": "error",
-    "no-param-reassign": "error",
-    "no-path-concat": "error",
-    "no-return-assign": "error",
-    "no-sequences": "error",
-    "no-shadow": "error",
-    "no-sync": "error",
-    "no-undef-init": "error",
-    "no-useless-concat": "error",
-    "no-warning-comments": "error",
-    "prefer-const": "error",
-    "strict": [
-      "error",
-      "global"
-    ],
-    "valid-jsdoc": "error"
-  },
-  "extends": "eslint:recommended"
->>>>>>> master
 }
